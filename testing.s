@@ -1,0 +1,43 @@
+lui gp, 0x4000
+addi s11, x0, 0
+
+lw s0, 0(s11)
+lw s1, 4(s11)
+lw s2, 8(s11)
+lw s3, 12(s11)
+lw s4, 16(s11)
+lw s5, 20(s11)
+lw s6, 24(s11)
+lw s7, 28(s11)
+lw s8, 32(s11)
+lw s9, 36(s11)
+lw s10, 40(s11)
+lw t0, 44(s11)
+lw t1, 48(s11)
+lw t2, 52(s11)
+lw t3, 56(s11)
+lw t4, 60(s11)
+lw t5, 64(s11)
+lw t6, 68(s11)
+
+sw s0, 0(gp)
+sw s1, 4(gp)
+sw s2, 8(gp)
+sw s3, 12(gp)
+sw s4, 16(gp)
+sw s5, 20(gp)
+sw s6, 24(gp)
+sw s7, 28(gp)
+sw s8, 32(gp)
+sw s9, 36(gp)
+sw s10, 40(gp)
+sw t0, 44(gp)
+sw t1, 48(gp)
+sw t2, 52(gp)
+sw t3, 56(gp)
+sw t4, 60(gp)
+sw t5, 64(gp)
+sw t6, 68(gp)
+
+
+
